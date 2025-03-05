@@ -11,7 +11,6 @@ Azure Odyssey is an end-to-end data engineering project built on Microsoft Azure
 - [Architecture](#architecture)
 - [Technologies Used](#technologies-used)
 - [Project Phases](#project-phases)
-- [Installation & Setup](#installation--setup)
 - [Usage](#usage)
 - [Future Enhancements](#future-enhancements)
 - [License](#license)
@@ -64,9 +63,12 @@ The solution is divided into three main phases:
   - Create SQL views and external tables using CETAS to abstract and serve the data.
 - **Reporting:** Connect Synapse Analytics to Power BI Desktop via serverless SQL endpoints to build interactive dashboards and KPIs.
 
-## Installation & Setup
+### Usage
 
-1. **Clone the Repository:**  
-   ```bash
-   git clone https://github.com/your-username/azure-odyssey.git
-   cd azure-odyssey
+- **Data Ingestion:**
+   -Launch Azure Data Factory and run the dynamic pipeline that ingests CSV files from GitHub.
+- **Data Transformation:**
+   -Open the provided Databricks notebooks and run the PySpark scripts to transform and validate data.
+- **Data Serving & Reporting:**
+   -Log in to your Synapse Analytics workspace to view and query the external tables and views.
+Open the provided Power BI Desktop file (report.pbix) and connect using the serverless SQL endpoint to build and view dashboards.
