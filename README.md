@@ -12,8 +12,6 @@ Azure Odyssey is an end-to-end data engineering project built on Microsoft Azure
 - [Technologies Used](#technologies-used)
 - [Project Phases](#project-phases)
 - [Usage](#usage)
-- [Future Enhancements](#future-enhancements)
-- [License](#license)
 
 ## Overview
 
