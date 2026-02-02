@@ -3,6 +3,11 @@ Azure Odyssey is an end-to-end data engineering project on Azure. It uses Data F
 
 Azure Odyssey is an end-to-end data engineering project built on Microsoft Azure. The solution demonstrates a multi-layered data pipeline using Azure Data Factory, Azure Databricks, and Azure Synapse Analytics, with data visualization in Power BI.
 
+## Architecture Diagram
+
+![Azure Architecture](Architecture.png)
+
+
 ## Table of Contents
 
 - [Overview](#overview)
