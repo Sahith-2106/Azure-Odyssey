@@ -1,7 +1,5 @@
-# Azure-Odyssey
-Azure Odyssey is an end-to-end data engineering project on Azure. It uses Data Factory for ingestion, Databricks (PySpark) for transformation, and Synapse Analytics with Power BI for serving. It implements a medallion (Bronze, Silver, Gold) architecture for real-world data pipelines.
-
 # Azure Odyssey: End-to-End Data Pipeline on Azure
+Azure Odyssey is an end-to-end data engineering project on Azure. It uses Data Factory for ingestion, Databricks (PySpark) for transformation, and Synapse Analytics with Power BI for serving. It implements a medallion (Bronze, Silver, Gold) architecture for real-world data pipelines.
 
 Azure Odyssey is an end-to-end data engineering project built on Microsoft Azure. The solution demonstrates a multi-layered data pipeline using Azure Data Factory, Azure Databricks, and Azure Synapse Analytics, with data visualization in Power BI.
 
